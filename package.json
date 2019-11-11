@@ -1,0 +1,11 @@
+{
+  "name": "simon",
+  "version": "0.5.0",
+  "description": "Simon game made with JS, HTML & CSS.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernardo Munz",
+  "license": "ISC"
+}
