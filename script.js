@@ -164,13 +164,13 @@ class Juego {
   }
 
   gameWon() {
-    swal("Platzi", "Felicitaciones, ganaste el juego!", "success").then(() => {
+    swal("Yeahhh!", "Felicitaciones, ganaste el juego!", "success").then(() => {
       this.initialize;
     });
   }
 
   gameLost() {
-    swal("Platzi", "Lo lamentamos, perdiste :(", "error").then(() => {
+    swal("Oh No!", "Lo lamentamos, perdiste :(", "error").then(() => {
       this.removeEvents();      
       this.initialize();
     });
